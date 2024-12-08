@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-primary: #0a09039e;
-  --bg-secondary:#2f2e1a;
-  --bg-accent:#181607;
+  --bg-primary: #F8E8C3;
+  --bg-secondary:#F9E9D7;
+  --bg-accent:#231902;
   --bg-muted: #3b3521;
-  --foreground: #f9f9f8;
-  --muted-foreground: #929085;
-  --border-primary: #3b3421;
+  --foreground: #33220d;
+  --muted-foreground: #978d6d;
+  --border-primary: #45341b;
   --border-secondary: #301810;
-  --primary: #c29c34;
-  --primary-accent:#a07b03;
+  --primary: #a06f26;
+  --primary-accent: #785305;
+  --bottom-gradient: #ebc97ff0;
   --gradient-1:linear-gradient(to right, var(--primary) 0%, var(--primary-accent) 100%);
   --gradient-2:linear-gradient(to right, var(--primary) 0%, #e3e2e1 100%);
-  --gradient-3:linear-gradient(190deg,var(--primary) 0%,rgba(18, 82, 78,.5) 100%);
-  --destructive: #7f3a1dbe;
+  --gradient-3:linear-gradient(190deg,var(--primary) 0%,rgba(110, 88, 28, 0.904) 100%);
+  --destructive: #723216f1;
   --warning:#ff000080;
   --transition:all 400ms ease;
   --glow: radial-gradient(rgba(244, 205, 76, 0.811) 0%, rgba(244, 205, 76, 0.922));
@@ -43,6 +44,7 @@ html, body {
 body {
   max-width: 1800px;
   margin: auto;
+  background: linear-gradient(to bottom, var(--bg-primary) 10%, var(--bottom-gradient)) 100%;
 }
 
 p {
