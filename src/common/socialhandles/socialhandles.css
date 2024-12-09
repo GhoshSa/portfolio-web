@@ -1,0 +1,9 @@
+.handles-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-hover:hover {
+    color: var(--bg-primary);
+}

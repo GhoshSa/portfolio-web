@@ -5,6 +5,7 @@ import Logo from "../../common/logo"
 import { useState } from "react"
 import { HiMenu } from "react-icons/hi"
 import { FaTimes } from "react-icons/fa"
+import SocialHandles from "../../common/socialhandles"
 
 const Navbar = () => {
     const [openSidebar, setOpenSidebar] = useState(false)
@@ -24,6 +25,7 @@ const Navbar = () => {
                     ))
                 }
             </div>
+            <SocialHandles/>
             <div className="box flex-center buttons">
                 <Link to="contact" smooth={ true } className="btn primary contact-btn">Hire me</Link>
                 <Link to="services" smooth={ true } className="btn services-btn">Services</Link>
